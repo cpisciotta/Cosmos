@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "Cosmos",
+    platforms: [
+        .iOS(.v12)
+    ],
     products: [
         .library(name: "Cosmos", targets: ["Cosmos"]),
     ],
